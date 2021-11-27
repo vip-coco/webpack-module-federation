@@ -1,0 +1,27 @@
+{
+  "name": "module-federation-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --progress --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vip-coco/webpack-module-federation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vip-coco/webpack-module-federation/issues"
+  },
+  "homepage": "https://github.com/vip-coco/webpack-module-federation#readme",
+  "devDependencies": {
+    "build-run-webpack-plugin": "^1.0.6",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
